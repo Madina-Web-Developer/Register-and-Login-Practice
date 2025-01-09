@@ -1,0 +1,14 @@
+.contact-bg {
+    @apply bg-gray-800 text-white p-6 rounded-lg shadow-lg;
+  }
+  
+.form{
+
+    @apply  p-[30px]
+}
+
+
+ .form h1{
+
+    @apply text-white text-[28px] text-center font-semibold mt-[30px] mb-[50px]
+ }
