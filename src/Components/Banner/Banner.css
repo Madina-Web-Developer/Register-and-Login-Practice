@@ -1,6 +1,6 @@
 .all_banner{
 
-    @apply bg-[#243034] h-screen
+    @apply bg-[#243034] 
 }
 
 .left img{
@@ -35,21 +35,7 @@
     rounded-[30px] py-[20px] px-[166px] mt-[48px]
 }
 
-.count{
-    @apply
-    w-[1002px]
-    bg-[#314D50]/60
-    rounded-full
-    absolute
-    right-[50px]
-    bottom-[-65px]
-    flex
-    justify-between
-    items-center
-    px-[90px]
-    pt-[23px]
-    pb-[28px]
-  }
+
 .count .counter{
     @apply
     flex

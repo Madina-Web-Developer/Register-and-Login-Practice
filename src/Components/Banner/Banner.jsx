@@ -38,7 +38,7 @@ const Banner = () => {
                   
                 </div>
 
-                <div className="count ">
+                <div className="count flex rounded-[80px] justify-start bg-[#314D50] rounded-[80px]flex py-[23px] px-[90px] gap-[121px]">
                             <div className="counter">
                             <h2>750 W</h2>
                             <h3>Motor</h3>
