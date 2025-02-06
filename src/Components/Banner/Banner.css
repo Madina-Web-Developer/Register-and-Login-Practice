@@ -1,6 +1,6 @@
 .all_banner{
 
-    @apply bg-[#243034] 
+    @apply bg-[#243034] h-screen
 }
 
 .left img{

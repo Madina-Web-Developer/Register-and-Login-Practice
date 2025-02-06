@@ -19,7 +19,7 @@ const Banner = () => {
                        <img src={Img} alt="bannerimg" />
                     </div>
 
-                    <div className="right">
+                    <div className="right mt-[150px]">
                       <h1 className='b'>Hubble</h1>
                       <h2>Bike</h2>
                       <p>Hire a bike to any destination and share with friends,
@@ -35,10 +35,7 @@ const Banner = () => {
                     </div>
 
                    
-                  
-                </div>
-
-                <div className="count flex rounded-[80px] justify-start bg-[#314D50] rounded-[80px]flex py-[23px] px-[90px] gap-[121px]">
+                <div className="count flex rounded-[80px] justify-start bg-[#314D50] top-[70%] absolute left-0 rounded-[80px]flex py-[23px] px-[90px] gap-[121px]">
                             <div className="counter">
                             <h2>750 W</h2>
                             <h3>Motor</h3>
@@ -56,6 +53,9 @@ const Banner = () => {
                             <h3>Battery</h3>
                             </div>
                    </div>
+                  
+                </div>
+
             </div>
         </div>
     </div>
