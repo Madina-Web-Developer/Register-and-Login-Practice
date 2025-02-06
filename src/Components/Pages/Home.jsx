@@ -1,12 +1,13 @@
 import React from 'react'
-import Data from '../Realtime Database/Data'
+import Banner from '../Banner/Banner'
+
+
 
 const Home = () => {
   return (
     <div>
 
-        <Data/>
-        
+      <Banner/>
     </div>
   )
 }

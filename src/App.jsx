@@ -1,9 +1,7 @@
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import './App.css'
-import About from './Components/Pages/About'
+import LayoutOne from './Components/Layouts/LayoutOne'
 import Home from './Components/Pages/Home'
-import app from './Firebase.config'
-
 
 
 function App() {
@@ -13,12 +11,9 @@ function App() {
     createRoutesFromElements(
 
       <Route>
-
+        <Route path='/' element={<LayoutOne/>}>
         <Route index element={<Home/>}/>
-
-        <Route path='/about' element={<About/>}/>
-
-
+        </Route>
       </Route>
     )
   )

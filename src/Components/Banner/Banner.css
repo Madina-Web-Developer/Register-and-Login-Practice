@@ -1,0 +1,73 @@
+.all_banner{
+
+    @apply bg-[#243034] 
+}
+
+.left img{
+
+    @apply w-[1127px] pt-[63px]
+}
+
+.mina_all{
+
+    @apply flex justify-between items-center
+}
+
+.right .b{
+
+    @apply text-[48px] text-[#00B9D4] font-Inter font-semibold
+}
+
+.right h2{
+
+    @apply text-[100px] text-[#fff] font-Inter font-semibold
+}
+
+.right p{
+
+    @apply text-[18px] w-[514px] text-[#fff] font-Inter font-semibold 
+}
+
+.right Button{
+
+    @apply text-[24px] w-[455px] bg-gradient-to-t to-[#009EB5] from-[#009EB5]  text-[#fff] font-Inter font-semibold 
+
+    rounded-[30px] py-[20px] px-[166px] mt-[48px]
+}
+
+.banner-img .counter{
+    @apply
+    w-[1002px]
+    bg-[#314D50]/60
+    rounded-full
+    absolute
+    right-[50px]
+    bottom-[-65px]
+    flex
+    justify-between
+    items-center
+    px-[90px]
+    pt-[23px]
+    pb-[28px]
+  }
+.count .counter{
+    @apply
+    flex
+    flex-col
+    items-center
+    gap-[33px]
+  }
+.count .counter h2{
+    @apply
+    font-Inter
+    font-semibold
+    text-[36px]
+    text-white
+  }
+.count .counter h3{
+    @apply
+    font-Inter
+    font-semibold
+    text-[16px]
+    text-white
+  }
