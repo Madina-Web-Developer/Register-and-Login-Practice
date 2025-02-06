@@ -35,7 +35,7 @@
     rounded-[30px] py-[20px] px-[166px] mt-[48px]
 }
 
-.counter{
+.count{
     @apply
     w-[1002px]
     bg-[#314D50]/60
